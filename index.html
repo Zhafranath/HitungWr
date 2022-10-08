@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Wr</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Hitung Wr Mobile Legend</h2>
+        <div class="content">
+            <h4>Winrate All Season</h4>
+            <form action="/index.js" name="form" id="forms">
+                <ul>
+                    <li><label for="match">Total Match Anda</label></li>
+                    <li><input type="number" id="match" name="match"></li>
+                    <li><label for="winrateA">Total Winrate Anda </label></li>
+                    <li><input type="number" id="winrateA" name="winrateA"></li>
+                    <li><label for="winrateB">Winrate Yang Diinginkan</label></li>
+                    <li><input type="number" id="winrateB" name="winrateB"></li>
+                    <input type="button" value="click up" id="submit">
+                </ul>
+            </form>
+            <div class="hasil">
+                <h4>Hasil</h4>
+                <p id="hasilB"></p>
+            </div>
+        </div>
+    </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
