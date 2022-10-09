@@ -16,7 +16,7 @@ btn.addEventListener("click", function() {
   else 
   {
     v = Math.abs(w);
-    z = 'Anda memerlukan sekitar ' + v + ' kekalahan untuk mencapai winrate '+ winrateB + '%';
+    z = 'Anda memerlukan sekitar ' + v + ' lose tanpa win untuk mencapai winrate '+ winrateB + '%';
     result = document.getElementById('hasilB').innerHTML = z;
   }
 
